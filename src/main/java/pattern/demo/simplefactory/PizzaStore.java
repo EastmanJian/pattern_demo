@@ -18,5 +18,6 @@ public class PizzaStore {
         pizza.box();
         return pizza;
     }
-// other methods here
+
+    // other methods here
 }

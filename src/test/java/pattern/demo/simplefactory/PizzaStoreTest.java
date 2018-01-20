@@ -5,7 +5,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- * Created by jiany on 2018-01-20.
+ * Test Simple Factory Pattern at the PizzaStore
  */
 public class PizzaStoreTest {
     @Test
