@@ -1,4 +1,4 @@
-package pattern.demo.adapter;
+package pattern.demo.adapter1;
 
 import java.util.ArrayList;
 

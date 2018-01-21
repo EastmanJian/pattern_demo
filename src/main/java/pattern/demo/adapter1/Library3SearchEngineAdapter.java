@@ -1,9 +1,8 @@
-package pattern.demo.adapter;
+package pattern.demo.adapter1;
 
 import java.util.ArrayList;
 
-public class Library3SearchEngineAdapter implements Searchable {
-    private Library3SearchEngine adaptee = new Library3SearchEngine();
+public class Library3SearchEngineAdapter extends Library3SearchEngine implements Searchable {
 
     public ArrayList<Book> searchByAuthor (String author) {
         ArrayList<Book> books = new ArrayList<>();
@@ -13,12 +12,8 @@ public class Library3SearchEngineAdapter implements Searchable {
         return books;
     }
 
-    public ArrayList<Book> searchByCallNumber(String callNum) {
-        return adaptee.searchByCallNumber(callNum);
-    }
-
     public ArrayList<Book> searchByTitle(String title) {
         char t[] = title.toCharArray();
-        return adaptee.titleSearch(t);
+        return super.titleSearch(t);
     }
 }
