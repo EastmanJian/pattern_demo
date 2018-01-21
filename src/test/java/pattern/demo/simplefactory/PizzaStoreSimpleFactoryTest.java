@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
 /**
  * Test Simple Factory Pattern at the PizzaStore
  */
-public class PizzaStoreTest {
+public class PizzaStoreSimpleFactoryTest {
     @Test
     public void testOrderPizza() throws Exception {
         PizzaStore store = new PizzaStore(new SimplePizzaFactory());

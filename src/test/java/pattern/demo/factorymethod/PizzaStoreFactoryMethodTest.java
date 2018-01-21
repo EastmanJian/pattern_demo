@@ -8,7 +8,7 @@ import static org.junit.Assert.*;
 /**
  * Test Factory Method Pattern at the PizzaStore
  */
-public class PizzaStoreTest {
+public class PizzaStoreFactoryMethodTest {
     @Test
     public void testOrderPizza() throws Exception {
         PizzaStore nyStore = new NYPizzaStore();
