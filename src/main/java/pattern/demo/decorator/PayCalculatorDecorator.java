@@ -1,5 +1,6 @@
 package pattern.demo.decorator;
 
+//can be non-abstract if this top-level decorator will be used standalone
 public abstract class PayCalculatorDecorator implements PayCalculator {
     private PayCalculator decoratee;
 
