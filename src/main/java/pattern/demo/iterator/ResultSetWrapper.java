@@ -1,7 +1,5 @@
 package pattern.demo.iterator;
 
-import java.sql.ResultSet;
-
 public class ResultSetWrapper implements CatalogDataSource {
     String resultSet[] = {"ResultSet1", "ResultSet2", "ResultSet3"}; //sample data
     int elementIndex = -1;
